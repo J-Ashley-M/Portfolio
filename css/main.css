@@ -1,0 +1,139 @@
+/***** BASE STYLES *****/
+
+body {
+    font-family: 'Baloo Paaji 2', cursive;
+    font-size: 12px;
+    color: #3d5c5c;
+    background-color: #f5f5f0;
+}
+
+#work {
+    height: 1700px;
+}
+#about {
+    height: 700px;
+}
+#contact {
+    height: 400px;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+/***** HEADER *****/
+
+header {
+    height: 800px;
+    background: url(../img/teal-desk.jpg);
+    background-size: cover;
+}
+
+header h1 {
+    font-family: 'Satisfy', cursive;
+    font-size: 90px;
+    text-align: center;
+    padding: 50px 0 0px 25px;
+    margin-bottom: 0px;
+}
+
+header h2 {
+    font-family: 'Special Elite', cursive;
+    font-size: 30px;
+    line-height: 20px;
+    text-align: center;
+    padding: 0px 0 0px 25px;
+    margin-top: 10px;
+}
+
+/***** WORK *****/
+
+#work {
+    text-align: left;
+}
+
+work h2 {
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+    font-size: 36px;
+    text-decoration: underline;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.photo-block {
+    float: left;
+    padding-bottom: 30px; 
+}
+
+.info-block {
+    text-align: justify;
+}
+
+work h3 {
+    font-size: 30px;
+}
+work p {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+/***** ABOUT *****/
+
+#about {
+    background-color: #3d5c5c;
+}
+
+about h2 {
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+    font-size: 36px;
+    color: #f5f5f0;
+    text-decoration: underline;
+    padding-bottom: 30px;
+    padding-top: 110px;
+}
+about p {
+    font-size: 30px;
+    line-height: 40px;
+    color: #f5f5f0;
+    text-align: justify;
+}
+about img {
+    padding-top: 120px;
+}
+
+/***** CONTACT *****/
+
+contact h2 {
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+    font-size: 36px;
+    text-decoration: underline;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+contact img {
+    float: left;
+    width: 150px;
+    height: 150px;
+    padding-top: 50px;
+}
+
+/***** FOOTER *****/
+
+div {
+    text-align: center;
+}
